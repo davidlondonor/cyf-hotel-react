@@ -3,8 +3,19 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  /* animation: App-logo-spin infinite 20s linear; */
   height: 80px;
+}
+
+.Logo-header {
+  width: 70px;
+  animation: App-logo-spin infinite 5s linear;
+}
+
+.imagenContenedor {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
 }
 
 .App-header {
