@@ -12,6 +12,12 @@
   animation: App-logo-spin infinite 5s linear;
 }
 
+.align-middle {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+}
+
 .imagenContenedor {
   display: flex;
   justify-content: center;
