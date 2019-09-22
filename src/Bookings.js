@@ -7,12 +7,12 @@ const search = searchVal => {
   console.info("TO DO!", searchVal);
 };
 
-const Bookings = () => {
+const Bookings = ({ children }) => {
   return (
     <div className="App-content">
       <div className="container">
         <Search search={search} />
-        {/* <SearchResults results={FakeBookings} /> */}
+        {children}
       </div>
     </div>
   );
